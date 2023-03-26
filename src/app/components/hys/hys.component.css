@@ -1,0 +1,27 @@
+.row{
+    background: #a349a4;
+    padding: 30px;
+    color: lightpink;
+    text-align: center;
+}
+ h4{margin-top: 10px;
+ }
+ h2{margin-top: 50px;
+
+ }
+
+ .btn{
+    background-color:  lightpink;
+    color:  #a349a4;
+    font-weight: bold;
+    border-width: medium;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
