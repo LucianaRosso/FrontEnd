@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #d29bfd;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #d29bfd;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.card-container{
+    display: flex;
+    height: auto;
+    align-items: stretch;
+}
+#Acercademípárrafo{
+    text-align: justify;
+}
+.header, .descripcion{
+    padding: 20px;
+    text-align: center;
+
+}
+.header a{
+    position: relative;
+    display: block;
+}
+.header img{
+border-radius: 50%;
+box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+margin: 25px;
+transition: .2s;
+width: 300px;
+    height: 350px;
+}
+.header a:hover img{
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, .1); 
+}
+.header h2,h4{
+    color: white;
+    background-color: #a349a4 ;
+    margin-bottom: 0px;
+}
+
+.descripcion{
+    position: relative;
+}
+
+.descripcion{
+    margin: 20px 30px;
+    color: rgb(112, 60, 127);
+}
+.descripcion img{
+margin-top: 25px;
+height: 100px;
+width: 100px;
+}
+@media(max-width: 576px){
+    .card-container{
+        display: block;
+        width: 450px;
+    }
+    .header{
+        padding: 20px 20px 5px 20px;
+        border: none;
+    }
+    .descripcion{
+        padding: 5px 20px 20px 20px;
+        background-color: transparent;
+
+    }
+    .header h4{
+        margin: 0;
+    }
+}
