@@ -11,6 +11,6 @@ export const environment = {
   },
   
   production: true,
-  URL: 'https://backenddeploy-t021.onrender.com'
+  URL: 'https://lrrbackend.onrender.com'
 
 };
