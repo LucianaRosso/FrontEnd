@@ -1,0 +1,18 @@
+.btn{
+    background-color: #d29bfd;
+    color:rgb(112, 60, 127);
+    font-weight: bold;
+    border-width: medium;
+    margin-bottom: 3%;
+    padding: 8px;
+}
+
+.form-group{
+    color:white;
+    font-weight: bold; 
+}
+
+.imagendefondo{
+background-image:url("../../../assets/fondo.gif");
+background-size: contain;
+height: 700px;}

@@ -77,3 +77,12 @@ width: 100px;
         margin: 0;
     }
 }
+
+.btn{
+    background-color: white;
+    color:rgb(112, 60, 127);
+    font-weight: bold;
+    border-width: medium;
+    margin-bottom: 3%;
+    padding: 8px;
+}

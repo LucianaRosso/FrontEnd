@@ -9,6 +9,9 @@
  h2{margin-top: 50px;
 
  }
+ .btn.btn-light{
+    margin: 4px ;
+ }
 
  .btn{
     background-color:  lightpink;
