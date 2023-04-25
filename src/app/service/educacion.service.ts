@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
- URL = environment.URL + 'educacion/';;
+ URL = 'https://lrrbackend.onrender.com/educacion/';;
   constructor(private httpClient : HttpClient) { }
   public lista(): Observable<Educacion[]>{
     return this.httpClient.get<Educacion[]>(this.URL + 'lista');
