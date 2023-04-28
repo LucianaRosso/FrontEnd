@@ -8,7 +8,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'https://lrrbackend.onrender.com/explab/';
+  expURL = environment.URL + 'explab/';
 
   constructor(private httpClient: HttpClient) { }
   public lista():Observable<Experiencia[]>{
